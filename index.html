@@ -8,17 +8,52 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-
+    <header class="main-header">
+        <div class="tytul">
+            <h1>
+                Portfolio
+            </h1>
+            <h2>
+               Or some informations about me 
+            </h2>
+        </div>
     </header>
     <nav>
-
+        <ul class="options">
+            <li><a href="#about">About</a></li>
+            <li><a href="#front">Front-End</a></li>
+            <li><a href="#hobby">Hobby</a></li>
+        </ul>
     </nav>
-    <section>
-
+    <section id="about">
+        <div class="about-inner">
+            <img src="../Portfolio/Photos/K127.png" alt="">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias cumque hic, blanditiis provident quo error magnam ipsam nobis ex explicabo qui temporibus nihil earum. Ex enim nisi possimus aliquid quisquam!</p>
+        </div>
     </section>
-    <footer>
-        
+
+    <section id="front">
+        <div class="front-inner">
+            <h2>Front-End</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias cumque hic, blanditiis provident quo error magnam ipsam nobis ex explicabo qui temporibus nihil earum. Ex enim nisi possimus aliquid quisquam!</p>
+        </div>
+    </section>
+
+    <section id="hobby">
+        <div class="hobby-inner">
+            <h2>Hobby</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias cumque hic, blanditiis provident quo error magnam ipsam nobis ex explicabo qui temporibus nihil earum. Ex enim nisi possimus aliquid quisquam!</p>
+        </div>
+    </section>
+
+    <footer class="footer-inner">
+        <form action="get">
+            <input type="text" name="name" id="name" placeholder="Name" required>
+            <input type="text" name="surname" id="surname" placeholder="Surname" required>
+            <input type="email" name="email" id="email" placeholder="E-Mail" required>
+            <input type="submit" value="submit">
+        </form>
     </footer>
 </body>
 </html>

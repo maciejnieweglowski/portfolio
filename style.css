@@ -1,0 +1,28 @@
+* {
+    ;
+}
+
+.main-header {
+    height: 120vh;
+    background: url(../Portfolio/Photos/raptors.jpg) no-repeat center;
+}
+
+.tytul {
+    margin-top: 300px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+ 
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    margin: 20px;
+}
