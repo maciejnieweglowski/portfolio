@@ -2,6 +2,7 @@
     font-family: 'Open Sans Condensed', sans-serif;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 .main-header {
@@ -101,3 +102,19 @@ section{
 }
 
 
+.icons {
+    padding: 20px;
+}
+.icons i {
+    padding: 20px;
+    transition: 1s;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+
+}
+
+.icons i:hover {
+    color: white;
+
+}
