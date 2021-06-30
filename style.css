@@ -119,6 +119,16 @@ section{
 
 }
 
+@media (orientation:landscape) {
+    .main-header {
+        height: 100vh;
+    }
+    .footer-inner {
+        background-color: #262626;
+        height: 100vh;
+    }
+}
+
 @media (min-width:200px) and (max-width:700px) {
     
     .main-header{
@@ -134,9 +144,7 @@ section{
     #photo {
         margin-top: 10px;
         margin-bottom: 10px;
-        padding: 0;
-        height: 150px;
-    }
+        padding: ;
 }
 
     section {
@@ -148,5 +156,9 @@ section{
         margin-bottom: 50px;
 }
     
+}
+
+@media (orientation:landscape) {
+
 }
  
