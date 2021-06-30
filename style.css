@@ -101,10 +101,10 @@ section{
 
 }
 
-
 .icons {
     padding: 20px;
 }
+
 .icons i {
     padding: 20px;
     transition: 1s;
@@ -118,3 +118,35 @@ section{
     color: white;
 
 }
+
+@media (min-width:200px) and (max-width:700px) {
+    
+    .main-header{
+    height: 100vh;
+    width: 100%;
+}
+
+    h1 h2 h3 {
+        text-align: center;
+
+}
+    
+    #photo {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 0;
+        height: 150px;
+    }
+}
+
+    section {
+        text-align: center;
+        padding: 20px;
+        margin-top: 50px;
+        margin-left: 10vh;
+        margin-right: 10vh;
+        margin-bottom: 50px;
+}
+    
+}
+ 
