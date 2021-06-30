@@ -123,6 +123,14 @@ section{
     .main-header {
         height: 100vh;
     }
+
+    .navigation {
+        margin-top: 45vh;
+    }
+
+    .tytul {
+        margin-top: 20vh;
+    }
     .footer-inner {
         background-color: #262626;
         height: 100vh;
@@ -132,7 +140,7 @@ section{
 @media (min-width:200px) and (max-width:700px) {
     
     .main-header{
-    height: 100vh;
+    height: 70vh;
     width: 100%;
 }
 
@@ -144,7 +152,8 @@ section{
     #photo {
         margin-top: 10px;
         margin-bottom: 10px;
-        padding: ;
+        padding:0 ;
+        height: 150px;
 }
 
     section {
