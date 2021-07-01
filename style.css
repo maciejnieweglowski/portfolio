@@ -92,7 +92,7 @@ section{
     text-align: -webkit-center;
 }
 
-.footer-inner input {
+.footer-inner input{
     display: flex;
     justify-content: center;
     text-align: center;
@@ -100,6 +100,7 @@ section{
     width: 20%;
 
 }
+
 
 .icons {
     padding: 20px;
