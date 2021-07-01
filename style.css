@@ -172,6 +172,11 @@ section{
         margin-right: 10vh;
         margin-bottom: 50px;
 }
+    .sport img {
+        flex-wrap: wrap;
+        width: 150px;
+        height: 150px;
+    }
     
 }
 
