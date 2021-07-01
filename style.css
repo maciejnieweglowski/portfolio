@@ -16,7 +16,7 @@
     justify-content: center;
     position: absolute;
     width: 100%;
-    padding-top: 200px;
+    padding-top: 10vh;
 }
 
 .navigation {
@@ -129,11 +129,11 @@ section{
     }
 
     .tytul {
-        margin-top: 20vh;
+        margin-top: 5vh;
     }
     .footer-inner {
         background-color: #262626;
-        height: 100vh;
+        height: 300px;
     }
 }
 
@@ -167,7 +167,7 @@ section{
     
 }
 
-@media (orientation:landscape) {
+/* @media (orientation:landscape) {
 
 }
- 
+  */
