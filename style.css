@@ -119,6 +119,14 @@ section{
 
 }
 
+.sport img {
+    width: 30vh;
+    height: 30vh;
+}
+
+#paragraf {
+    margin: 10px;
+}
 @media (orientation:landscape) and (min-width:400px) and (max-width: 700px){
     .main-header {
         height: 100vh;
@@ -167,7 +175,3 @@ section{
     
 }
 
-/* @media (orientation:landscape) {
-
-}
-  */
